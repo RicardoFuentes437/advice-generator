@@ -1,0 +1,18 @@
+html, body, #root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(218, 23%, 16%);
+}
+html .App, body .App, #root .App {
+  width: 550px;
+  height: 350px;
+}
+@media (max-width: 580px) {
+  html .App, body .App, #root .App {
+    width: 350px;
+  }
+}/*# sourceMappingURL=mainStyles.css.map */

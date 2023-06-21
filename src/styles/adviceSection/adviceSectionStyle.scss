@@ -1,0 +1,65 @@
+@use '../variables' as v;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+#advice-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: v.$Dark-Grayish-Blue;
+    border-radius: 10px;
+    font-family: "Manrope";
+
+    .header{
+        color: v.$Neon-Green;
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+        padding-top: 25px;
+        letter-spacing: 3px;
+    } 
+
+    .advice-text{
+        width: 90%;
+        height: 40%;
+        color: v.$Light-Cyan;
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+
+    #pattern-divider-mobile{
+        display: none;
+    }
+
+    #advice-button{
+        position: relative;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: none;
+        top: 50px;
+        cursor: pointer;
+        background-color: v.$Neon-Green;
+        transition: 0.3s;
+
+        &:hover{
+            box-shadow: 0 0 20px v.$Neon-Green;
+        }
+    }
+
+    @media (max-width: 580px) {
+        #pattern-divider-desktop{
+            display: none;
+        }
+
+        #pattern-divider-mobile{
+            display: block;
+            padding-top: 25px;
+        }
+
+        #advice-button{
+            top: 30px
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@use '../variables' as v;
+
+html, body, #root{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: v.$Dark-Blue;
+
+    .App{
+        width: 550px;
+        height: 350px;
+    }
+
+    @media (max-width: 580px) {
+        .App{
+            width: 350px;
+        }   
+    }
+}
