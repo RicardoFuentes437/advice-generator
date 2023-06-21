@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/advice-generator/static/css/main.4d00783e.css",
+    "main.js": "/advice-generator/static/js/main.31d6625e.js",
+    "static/js/787.028157ea.chunk.js": "/advice-generator/static/js/787.028157ea.chunk.js",
+    "index.html": "/advice-generator/index.html",
+    "main.4d00783e.css.map": "/advice-generator/static/css/main.4d00783e.css.map",
+    "main.31d6625e.js.map": "/advice-generator/static/js/main.31d6625e.js.map",
+    "787.028157ea.chunk.js.map": "/advice-generator/static/js/787.028157ea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d00783e.css",
+    "static/js/main.31d6625e.js"
+  ]
+}
